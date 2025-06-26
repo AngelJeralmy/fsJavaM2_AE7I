@@ -1,0 +1,59 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.cuadricula {
+    width: 230px;
+    height: 230px;
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.cuadricula > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+.modal {
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+.modal_window {
+    width: 210px;
+    height: 150px;
+    border-radius: 3.5px;
+}
+.modal_window > img {
+    width: 210px;
+    height: 150px;
+    border-radius: 3.5px;
+    cursor: pointer;
+}
+.botones {
+    width: 210px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.botones > button {
+    cursor:pointer;
+    background-color: rgb(0, 70, 128);
+    color: white;
+}
+
